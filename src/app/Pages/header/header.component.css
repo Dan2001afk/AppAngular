@@ -1,0 +1,14 @@
+/* Esto agrega espacio entre el título y los botones de la derecha */
+.spacer {
+  flex: 1 1 auto;
+}
+
+/* Estilos adicionales para personalizar el header */
+mat-toolbar {
+  font-size: 18px;
+  color: white;
+}
+
+button {
+  color: white;
+}
