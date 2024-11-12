@@ -55,7 +55,7 @@ export class InicioComponent {
 
 
   Eliminar(objeto:Estudiante){
-    if(confirm('¿Desea eliminar el Empleado?'+objeto.nombreCompleto)){
+    if(confirm('¿Desea eliminar el Estudiante? '+objeto.nombreCompleto)){
       this.estudianteService.Eliminar(objeto.estudianteID).subscribe({
         next:(data)=>{
           if(data.isSuccess){
